@@ -1,0 +1,181 @@
+*{
+box-sizing: border-box;
+background-size: cover;
+pa
+font-family: "Century Gothic";
+
+}
+html{
+font-size: 10px;
+}
+body nav{
+text-color:white;
+font-family:"Century Gothic";
+font-size:25px;
+padding-top: 45px;
+
+}
+.container{
+min-height: 100vh;
+width=60%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+a{
+background-color:white;
+color:black;
+line-height=0.7px;
+}
+body nav{
+position:relative;
+float:right;
+}
+a:link, a:visited {
+  background-color:black;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color:black;
+}
+.wel button{
+font-size:30px;
+position:relative; 
+left:350px; 
+bottom:80px; 
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 40px;
+background-color: black; 
+  color: white; 
+  border: 2px solid black;
+}
+.wel button:hover {
+  background-color: white;
+  color:black;
+  font-type:bold;
+}
+.wel button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.wel button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.wel button:hover span {
+  padding-right: 25px;
+}
+
+.wel button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body{
+background-image:url(i90.jpg);
+font-family: arial;
+	
+font-size: 20px;
+	
+line-height: 1.6em;
+
+backgrorund-position: top center;
+position: relative;
+z-index: 1;
+background-attachment: fixed;  
+
+}
+
+
+body li{
+float:left;
+}
+
+#main{
+background-image:url(hero.png);
+font-family: Century Gothic;
+font-size: 15px;
+	
+line-height: 1.6em;
+
+backgrorund-position: top center;
+position: relative;
+z-index: 1;
+background-attachment: fixed;  
+opacity: 0.5;
+}
+
+
+
+#main{
+background-image:url(i3.jpg);
+background-size: cover;
+background-position: top center;
+position: relative;
+z-index: 1;
+}
+#main::after{
+opacity: .7;
+z-index: -1;
+}
+
+h1{
+word-spacing: 50px;
+float:right;
+font-family: Century Gothic;
+font-size:25px;
+}
+
+.bank h1{
+position:relative;
+right:200px;
+top:10px;
+font-size:30px
+}
+.bank #wel img{
+float:center;
+}
+
+footer{
+	
+border-top: 3px #272726 solid;
+	
+background: pink;
+	
+color: #BBBBB9;
+	
+text-align: center;
+	
+padding-top: 5px;
+	
+padding-bottom: 5px;
+
+}
+
+
+
+@media only screen and (max-width: 960px){
+
+	
+}
+
+}

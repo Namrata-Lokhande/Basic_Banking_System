@@ -1,0 +1,25 @@
+
+
+nav a{
+position:relative;
+float:center;
+background-color:white;
+color:black;
+font-size:30px;
+}
+nav a:hover{
+background-color:white;
+color:black;
+}
+.button a{
+position:relative;
+float:center;
+background-color:white;
+color:black;
+font-size:30px;
+}
+
+.button a:visited{
+  color: white;
+  background-color:black;
+}
