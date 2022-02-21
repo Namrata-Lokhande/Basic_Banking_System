@@ -16,7 +16,7 @@ float:center;
 </style>
 </head>
 
-<body  style="background-color:red;">
+<body>
 <section id="main">
 <div class="main content">
 <div class ="nav">
