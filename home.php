@@ -13,13 +13,53 @@ include "connection.php";
 position:relative;
 float:center;
 }
+body{
+background-image:url(i90.jpg);
+font-family: arial;
+	
+font-size: 20px;
+	
+line-height: 1.6em;
+
+position: relative;
+z-index: 1;
+background-attachment: fixed;  
+overflow-y:hidden
+overflow-x:hidden; /* Hide horizontal scrollbar */
+}
+body nav{
+position:relative;
+float:right;
+}
+a{
+background-color:black;
+ color:black;
+line-height=0.7px;
+}
+a:link, a:visited {
+  background-color:black;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color:black;
+}
+body{
+font-family:"Century Gothic";
+}
+
 </style>
 </head>
 
 <body>
 <section id="main">
 <div class="main content">
-<div class ="nav">
+<div class ="nav" style="background-color:blue;">
 <nav>
 <a href="home.php">Home</a>
 <a href="customers.php" >Customer</a>
