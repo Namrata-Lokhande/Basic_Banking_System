@@ -6,8 +6,3 @@
 ## Project Video... 
 
 
-Uploading Basic Banking system.mp4…
-
-
-
-
